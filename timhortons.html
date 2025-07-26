@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim Hortons</title>
+    <style>
+
+        #toptext {
+            color: rgb(54, 4, 4);
+            font-size: 25px;
+        }
+
+        #button {
+            background-color: red;
+            color: white;
+            width: 100px;
+            height: 30px;
+        }
+
+        .secondbuttons {
+            background-color: white;
+            color: red;
+            width: 100px;
+            height: 30px;
+            border: 1px solid red;
+        }
+
+        #signin {
+            color: red;
+            background-color: white;
+            float: right;
+            border: 1px solid black;
+        }
+
+        #topbar {
+            background-color: red;
+            padding: 10px;
+        }
+
+        #bottomtabtext {
+            font-size: 30px;
+            float: right;
+        }
+
+        #titletext {
+            color: white;
+            font-weight: bold;
+        }
+
+        #descriptivetext {
+            color: grey;
+        }
+
+        #bottomtab {
+            background-color: rgb(93, 12, 12);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .appstores {
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            margin-right: 10px;
+            padding: 5px;
+        }
+
+        #weirdnames {
+            width: 120px;
+            height: 30px;
+            background-color: white;
+            color: red;
+            border: 1px solid red;
+        }
+
+        #trademarks {
+            color: white;
+            font-size: 12px;
+        }
+
+        .sectionrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin: 50px 0;
+            padding: 20px;
+        }
+
+        .sectionrowreverse {
+            flex-direction: row-reverse;
+        }
+
+        .imagecontainer img {
+            max-width: 100%;
+            height: auto;
+            width: 400px;
+        }
+
+        .textcontainer {
+            max-width: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="topbar">
+        <a href="timhortons.html">
+            <img src="download.png" width="100">
+        </a>
+        <a href="signup_signin_page.html">
+            <button id="signin"><strong>Sign In</strong></button>
+        </a>
+    </div>
+
+    <div class="sectionrow sectionrowreverse">
+        <div class="imagecontainer">
+            <img src="https://cdn.sanity.io/images/czqk28jt/prod_th_ca/90ceb03fac189c9bd847366a76c47439c4fb1114-2048x2048.png?w=750&q=40&fit=max&auto=format">
+        </div>
+        <div class="textcontainer" id="toptext">
+            <h1>Your new go-to <br>dinner is just $8.99!</h1>
+            <p><strong>Pick a main, a side, and a drink—all for just $8.99. Dinner isn’t just different, it’s a whole new vibe. Available daily from 5–11 PM.</strong></p>
+            <a href="https://www.timhortons.ca/menu">
+                <button id="button">Order Now</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="sectionrow">
+        <div class="imagecontainer">
+            <img src="https://cdn.sanity.io/images/czqk28jt/prod_th_ca/6c174150a8d42453ae88924320ab61fbe3793827-1000x500.jpg?w=750&q=40&fit=max&auto=format">
+        </div>
+        <div class="imagecontainer">
+            <img src="https://cdn.sanity.io/images/czqk28jt/prod_th_ca/5d58160fb9f1306d3b457ab1f5ecdc82fbe1e8b7-1000x500.jpg?w=750&q=40&fit=max&auto=format">
+        </div>
+    </div>
+
+    <div class="sectionrow sectionrowreverse">
+        <div class="imagecontainer">
+            <img src="https://cdn.sanity.io/images/czqk28jt/prod_th_ca/5d58160fb9f1306d3b457ab1f5ecdc82fbe1e8b7-1000x500.jpg?w=750&q=40&fit=max&auto=format">
+        </div>
+        <div class="textcontainer">
+            <h2>Now served with MORE chicken!</h2>
+            <p>We’re bringing more to your mealtime with our Loaded Bowls, now served with more chicken! Available in three delicious flavours: BBQ Crispy Chicken, Cilantro Lime and Habanero. Redeem 1,800 points for one!</p>
+            <a href="https://www.timhortons.ca/store-locator">
+                <button class="secondbuttons"><strong>Order Now</strong></button>
+            </a>
+        </div>
+    </div>
+
+    <div class="sectionrow">
+        <div class="imagecontainer">
+            <img src="https://cdn.sanity.io/images/czqk28jt/prod_th_ca/b4c851b7cf04b4a9fa2b1b766bf3799e14ecd6fe-2000x1000.png?w=750&q=40&fit=max&auto=format">
+        </div>
+        <div class="textcontainer">
+            <h2>Round Up for Tim Hortons Foundation <br>Camps!</h2>
+            <p>To round up your order total to the nearest 10¢, turn on the toggle under Community. All funds from Round Up will support Tim Hortons® Foundation Camps.</p>
+            <a href="https://www.timhortons.ca/signup">
+                <button id="weirdnames"><strong>Take me there</strong></button>
+            </a>
+        </div>
+    </div>
+
+    <div class="sectionrow sectionrowreverse">
+        <div class="imagecontainer">
+            <img src="https://cdn.sanity.io/images/czqk28jt/prod_th_ca/5e4f1362aacb1fb31fbd27541a445149c2063ab6-1000x500.jpg?w=750&q=40&fit=max&auto=format">
+        </div>
+        <div class="textcontainer">
+            <h2>Whatever your mood, there’s a Quencher for it.</h2>
+            <p>Stay cool this summer with our Fruit Quenchers. Try one or all in Sparkling, Frozen, and Lemonade. What's even cooler? You can redeem 800 points for one.</p>
+            <a href="https://www.timhortons.ca/store-locator">
+                <button class="secondbuttons"><strong>Order Now</strong></button>
+            </a>
+        </div>
+    </div>
+
+    <div class="sectionrow">
+        <div class="imagecontainer">
+            <img src="https://cdn.sanity.io/images/czqk28jt/prod_th_ca/3965d14d0ad811f4d2504defe6abe9e2369710b9-1000x500.png?w=750&q=40&fit=max&auto=format">
+        </div>
+        <div class="textcontainer">
+            <h2>Using your points is rewarding</h2>
+            <p>Track your balance and see what rewards are waiting!</p>
+            <a href="https://www.timhortons.ca/signup">
+                <button class="secondbuttons"><strong>View history</strong></button>
+            </a>
+        </div>
+    </div>
+
+    <div class="sectionrow sectionrowreverse">
+        <div class="imagecontainer">
+            <img src="https://cdn.sanity.io/images/czqk28jt/prod_th_ca/4a88058d5b17aa189fd678a0c648823e99d4f714-3000x1500.png?w=750&q=40&fit=max&auto=format">
+        </div>
+        <div class="textcontainer">
+            <h2>Over $13M donated to Tim Hortons® Foundation Camps</h2>
+            <p>Thank you! Camp Day 2025 was a success because of your help. Thank you for helping change the lives of youth in need.</p>
+            <a href="https://timscamps.com/">
+                <button class="secondbuttons"><strong>Learn more</strong></button>
+            </a>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div id="bottomtab">
+
+        <div id="bottomtabtext">
+            <br><br><br><br>
+            <h1 id="titletext">Order ahead,<br> save time, &<br> earn rewards!</h1>
+            <strong><p id="descriptivetext">Everything you love about Tim Hortons, now 'byte'-sized!</p></strong>
+
+            <a href="https://apps.apple.com/us/app/tim-hortons/id1143883086">
+                <button class="appstores">
+                    <img src="download (2).png" width="20" style="vertical-align:middle;"> Download on the<br>App Store
+                </button>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=digital.rbi.timhortons">
+                <button class="appstores">
+                    <img src="download (3).png" width="24" height="24" style="vertical-align:middle;"> Get It On<br>Google Play
+                </button>
+            </a>
+
+            <p id="trademarks">Apple and the Apple logo are trademarks of Apple Inc., registered in the<br> U.S. and other countries. App Store is a service mark of Apple Inc. Google<br> Play is a trademark of Google Inc. Terms apply.</p>
+        </div>
+
+        <img src="https://cdn.sanity.io/images/czqk28jt/prod_th_ca/e82871b5ec69047373cf3da647304d8050736bde-2191x3822.png?w=750&q=40&fit=max&auto=format" height="1000">
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <style>
+    #topbar {
+      background-color: red;
+    }
+
+    #submitbutton {
+      background-color: red;
+      color: white;
+      border: 0px;
+      width: 300px;
+      height: 40px;
+      font-weight: bold;
+      font-size: large;
+    }
+
+    #mail {
+      width: 300px;
+      height: 40px;
+    }
+
+    #main {
+      display: flex;
+      height: calc(100vh - 100px); /* Adjust for topbar */
+    }
+
+    #left-image {
+      width: 50%;
+    }
+
+    #left-image img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    #text {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+    }
+
+    body {
+      margin: 0;
+      background-color: antiquewhite;
+    }
+
+    hr {
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="topbar">
+    <a href="timhortons.html">
+      <img src="download.png" width="100">
+    </a>
+  </div>
+
+  <div id="main">
+    <div id="left-image">
+      <img src="https://cdn.sanity.io/images/czqk28jt/prod_th_ca/6d108c1b770d73756f0a205b6ce1237165fbd914-2160x2700.png?w=1077&q=40&fit=max&auto=format" alt="Image">
+    </div>
+
+    <div id="text">
+      <img src="download (1).png" width="75" height="75">
+      <h1>Sign In</h1>
+      <hr>
+      <form>
+        <input type="email" id="mail" name="mail" placeholder="Email Address*" required>
+        <br><br>
+        <input type="submit" value="Sign In" id="submitbutton">
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

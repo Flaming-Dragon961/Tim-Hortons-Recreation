@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #topbar {
+      background-color: red;
+    }
+
+    #main {
+      display: flex;
+    }
+
+    #left-image {
+      width: 60%;
+    }
+
+    #left-image img {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    #right-buttons {
+      width: 40%;
+      background-color: white;
+      text-align: center;
+      padding-top: 150px;
+    }
+
+    .SignUpSignIn {
+      font-size: 80px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="topbar">
+    <a href="timhortons.html">
+      <img src="download.png" width="100">
+    </a>
+  </div>
+
+  <div id="main">
+    <div id="left-image">
+      <img src="https://cdn.sanity.io/images/czqk28jt/prod_th_ca/566aca83c900506cc6eee4b5b2e1e229fdddc8f2-2160x2700.png?w=1077&q=40&fit=max&auto=format" alt="Promo Image">
+    </div>
+    <div id="right-buttons">
+      <a href="signin_form.html">
+        <button class="SignUpSignIn">Sign In</button>
+      </a>
+      <br><br>
+      <a href="signup_form.html">
+        <button class="SignUpSignIn">Sign Up</button>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
