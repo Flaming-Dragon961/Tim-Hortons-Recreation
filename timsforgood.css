@@ -1,0 +1,633 @@
+*{
+
+    font-family: 'Noto Sans', Montserrat, Arial, Helvetica, sans-serif;
+}
+
+#first_background{
+
+    background-image: url(/Images/photo-1538645731800-4640c639bba7.jpg);
+    padding-top: 60px;
+    
+
+}
+
+#forgood{
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    gap: 10px;
+    font-size: 25px;
+    padding-top: 25px;
+    
+}
+
+.fontsize{
+
+    font-size: 50px;
+}
+
+span{
+
+    color: red;
+}
+
+.margin{
+
+    margin-left: 50px;
+}
+
+#description{
+
+    font-size: 30px;
+    width: 500px;
+    text-align: justify;
+}
+
+.wrapping{
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#launched{
+
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#link{
+    color: white;
+}
+
+.threesquares{
+
+    font-size: 25px;
+    color: white;
+    padding-left: 75px;
+    padding-top: 25px;
+    width: 427px;
+    height: 350px;
+
+}
+
+#square1{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/Images/Header_People_and_Communities.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#square2{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/Images/Header_Planet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#square3{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/Images/Header_Food_and_Beverage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#commitment{
+
+    text-align: center;
+    color: green;
+    margin-top: 30px;
+}
+
+#iframe1{
+
+    margin-top: 50px;
+    margin-left: 355px;
+}
+
+#responsible{
+
+    padding-left: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    color: green;
+}
+
+#responsible_description{
+
+    width: 700px;
+}
+
+#community{
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    background-color: rgb(239, 236, 233);
+    margin-top: 40px;
+}
+
+#community_title{
+
+    color: green;
+    font-size: 45px;
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+#community_description{
+
+    margin-top: 20px;
+    width: 900px;
+    margin-right: 130px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#enveritas_image{
+
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+#enveritas_firstdec{
+
+    font-size: 35px;
+    width: 700px;
+}
+
+#enveritas_link{
+
+    font-size: 30px;
+    color: green;
+}
+
+#enveritas_page{
+
+    background-color: rgb(236, 225, 209);
+    padding-left: 50px;
+}
+
+video{
+
+    float: right;
+    margin-top: 75px;
+    margin-right: 200px;
+}
+
+#enveritas_seconddec{
+
+    font-size: 25px;
+    width: 700px;
+}
+
+#enveritas_text{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#farmer_title{
+
+    width: 600px;
+    font-size: 60px;
+    color: green;
+    
+}
+
+#farmer_description{
+
+    font-size: 30px;
+    width: 700px;
+    margin-top: 60px;
+}
+
+#title_description_farmer{
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+#farmer_page{
+
+    background-color: rgb(239, 236, 233);
+}
+
+#three_farmerimages{
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-top: 50px;
+    padding-left: 125px;
+}
+
+.farmer_algin{
+
+    display: flex;
+    flex-direction: column;
+    font-size: 27px;
+    color: green;
+}
+
+#farmertext3{
+
+    margin-left: 30px;
+}
+
+#three_videos{
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+#video_page{
+   
+    background-color: rgb(239, 236, 233);
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#monitoring_page{
+
+    background-color: rgb(239, 236, 233);
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+    padding-left: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#monitoring_title{
+
+    margin-top: 100px;
+    width: 550px;
+    font-size: 60px;
+}
+
+#icons_text{
+
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+#text2_monitoring{
+
+    width: 500px;
+}
+
+#firstcommitment_title{
+    margin: 0;
+    width: 650px;
+    font-size: 80px;
+
+}
+
+#firstcommitment{
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+#firstcommitment_subandtext{
+
+    font-size: 25px;
+    width: 700px;
+    padding-right: 50px;
+}
+
+.linking{
+
+    text-decoration: none;
+}
+
+.sixsquares{
+
+    font-size: 20px;
+    color: white;
+    padding-right: 20px;
+    padding-top: 200px;
+    width: 370px;
+    height: 500px;
+    text-align: center;
+}
+
+#div1{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/Images/foundation_camps.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#div2{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/Images/smile_cookie_2025_teaser.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#div3{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/Images/People_Timbits\ Hockey\ &\ Soccer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.padding_squares{
+
+    padding-left: 170px;
+}
+
+#six_images{
+
+    background-color: rgb(1, 58, 1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#div4{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/Images/People_Tims_for_Good_Donation-Platform.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#div5{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/Images/Special_Olympics_Donut_EN.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#div6{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/Images/orange_donut.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.square_links{
+
+    text-decoration: none;
+}
+
+#second_commitmentpage{
+
+    background-image: url(/Images/photo-1538645731800-4640c639bba7.jpg);
+    padding-left: 100px;
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 50px;
+
+}
+
+#secondcommitment_title{
+
+    margin: 0;
+    font-size: 70px;
+    width: 700px;
+}
+
+#secondcommitment_sub{
+
+    font-size: 40px;
+    width: 700px;
+}
+
+#secondcommitment_desc{
+
+    font-size: 25px;
+    width: 700px;
+}
+
+#line{
+
+    position: absolute;
+    width: 5px;
+    top: 0;
+    bottom: 0;
+    right: 350px;
+    background-color: black;
+}
+
+.box{
+
+    border: 0px;
+    border-radius: 60px;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    background-color: antiquewhite;
+    width: 300px;
+    text-align: center;
+    
+}
+
+#box1{
+
+    top: 150px;
+    right: 20px;
+}
+
+.boxtitle{
+
+    font-size: 25px;
+}
+
+#box2{
+
+    bottom: 300px;
+    right: 20px;
+
+}
+
+#box3{
+
+    bottom: 25px;
+    right: 20px;
+}
+
+#box4{
+
+    bottom: 175px;
+    right: 375px;
+}
+
+#box5{
+
+    top: 325px;
+    right: 375px;
+}
+
+#box6{
+
+    top: 25px;
+    right: 375px;
+}
+
+.box:hover{
+
+    border: 3px solid;
+}
+
+.sixsquares:hover{
+
+    border: 1px solid white;
+}
+
+#herelink{
+
+    color: white;
+}
+
+#herelinksection{
+
+    text-align: center;
+    background-color: rgb(60, 8, 8);
+    color: white;
+    height: 150px;
+    padding-top: 50px;
+    font-size: 14px;
+}
+
+#herelinktext{
+
+    margin: 40px;
+}
+
+#thirdcommitment_page{
+
+    background-color: red;
+    padding-left: 75px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+#thirdcommitment_title{
+
+    margin: 0;
+    font-size: 70px;
+    width: 600px;
+}
+
+#whitespan{
+
+    color: white;
+}
+
+#thirdcommitment_sub{
+    color: white;
+    width: 550px;
+
+}
+
+
+#thirdcommitment_desc{
+
+    width: 600px;
+    color: white;
+    font-size: 25px;
+}
+
+.imagetitle{
+
+    margin-top: 100px;
+}
+
+#thirdcommitment_subandtext{
+
+    position: absolute;
+    right: 100px;
+    top: 125px;
+   
+}
+
+.threesquares:hover{
+
+    border: 2px solid white;
+}
+
+#last_sectiontitle{
+
+    text-align: center;
+    border: 0px solid;
+    border-radius: 60px;
+    background-color: rgb(226, 183, 126);
+    width: 600px;
+    padding: 20px;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+#last_section{
+
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#rbi{
+
+    color: red;
+}
+
+#firstdesc{
+
+    font-size: 30px;
+    width: 700px;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+#rbidesc{
+
+    font-size: 30px;
+    width: 700px;
+    margin-left: 75px;
+}
+
+#text_image{
+
+    display: flex;
+    gap: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

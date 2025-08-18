@@ -3,119 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="timhortons.css">
     <title>Tim Hortons</title>
+
     <style>
+        
+        button:hover{
 
-        #toptext{
-
-            color: rgb(54, 4, 4);
-            font-size: 25px;
+            background-color: rgb(249, 166, 166);
         }
-
-        #button{
-
-            background-color: red;
-            color: white;
-            width: 100px;
-            height: 30px;
-        }
-
-        .firstrowimage{
-
-            background-color: antiquewhite;
-        }
-
-        .secondbuttons{
-
-            background-color: white;
-            color: red;
-            width: 100px;
-            height: 30px;
-            border: 1px solid red;
-
-        }
-
-        .textrow1{
-
-            background-color: white;
-        }
-
-        #signin{
-
-            color: red;
-            background-color: white;
-            float: right;
-            border: 1px solid black;
-            
-        }
-
-        #topbar{
-
-            background-color: red;
-        }
-
-        #bottomtabtext{
-
-            font-size: 30px;
-            float: right;
-        }
-
-        .textorimagealign{
-
-            float: right;
-        }
-
-        #titletext{
-
-            color: white;
-            font-weight: bold;
-        }
-
-        #descriptivetext{
-
-            color: grey;
-        }
-
-        #bottomtab{
-
-            background-color: rgb(93, 12, 12);
-        }
-
-        .appstores{
-
-            background-color: black;
-            color: white;
-            border: 1px solid white;
-        }
-
-        #weirdnames{
-
-            width: 120px;
-            height: 30px;
-            background-color: white;
-            color: red;
-            border: 1px solid red;
-        }
-
-        #trademarks{
-
-            color: white;
-        }
-
     </style>
 </head>
 <body>
-
+<div>
     <div id="topbar">
-        <a href="timhortons.html">
-            <img src="/Images/download.png" width="100">
-        </a>
-        <a href="signup_signin_page.html">
-        <button id="signin"><strong>Sign In</strong></button>
-        </a>
+        <div><a href="timhortons.html"><img src="/Images/download.png" width="100" id="logo"></a></div>
+        <div><a href="timsforgood.html" id="tims_for_good"><p><strong>Tims for Good</strong></p></a></div>
+        <div><a href="signup_signin_page.html"><button id="signin"><strong>Sign In</strong></button></a></div>
     </div>
+</div>
 
-    <div class="textorimagealign">
+<div id="first_section">
+    <div class="imagealign" id="circleimage">
         <img src="/Images/CircleImage.avif"  width="400" height="400">
     </div>
 
@@ -126,56 +35,35 @@
             <button id="button">Order Now</button>
         </a>
     </div>
+</div>
 
-    <br><br><br><br><br><br><br><br>
-
-    <div class="firstrowimage textorimagealign">
-        <br>
-        <img src="/Images/Img2.avif" width="748">
-    </div>
-
-    <div class="firstrowimage">
-        <br>
+    <div>
         <img src="/Images/Img1.avif" width="755" height="374">
+        <img src="/Images/Img2.avif" width="748" height="374" class="imagealign">
+    </div>
+<div>
+    <div class="textrow1" style="float: left;"><h2>Your new go-to <br>dinner is just $8.99!</h2>
+        <p>Pick a main, a side, and a drink—all for just $8.99. Dinner isn’t<br> just different, it’s a whole new vibe. Available daily from 5–11<br> PM.</p>
+        <a href="https://www.timhortons.ca/store-locator"><button class="secondbuttons"><strong>Order Now</strong></button>
+        </a>
     </div>
 
-    <div class="textrow1 textorimagealign">
+    <div class="textrow1" style="float: right;" >
         <h2>Now served with MORE chicken!</h2>
         <p>We’re bringing more to your mealtime with our Loaded Bowls,<br> now served with more chicken! Available in three delicious<br> flavours: BBQ Crispy Chicken, Cilantro Lime and Habanero.<br> Redeem 1,800 points for one!</p>
         <a href="https://www.timhortons.ca/store-locator">
             <button class="secondbuttons"><strong>Order Now</strong></button>
         </a>
     </div>
+</div>
 
-    <div class="textrow1">
-        <h2>Your new go-to <br>dinner is just $8.99!</h2>
-        <p>Pick a main, a side, and a drink—all for just $8.99. Dinner isn’t<br> just different, it’s a whole new vibe. Available daily from 5–11<br> PM.</p>
-        <a href="https://www.timhortons.ca/store-locator">
-            <button class="secondbuttons"><strong>Order Now</strong></button>
-        </a>
-    </div>
-
-    <br><br>
-
-    <div class="firstrowimage textorimagealign">
-        <br>
-        <img src="/Images/Img4.avif" width="748">
-    </div>
- 
-    <div class="firstrowimage">
-        <br>
+    <div>
         <img src="/Images/Img3.avif" width="755" height="374">
+        <img src="/Images/Img4.avif" width="748" height="374" class="imagealign">
     </div>
 
-    <div class="textrow1 textorimagealign">
-        <h2>Round Up for Tim Hortons Foundation <br>Camps!</h2>
-        <p>To round up your order total to the nearest 10¢, turn on the<br> toggle under Community. All funds from Round Up will<br> support Tim Hortons® Foundation Camps.</p>
-        <a href="https://www.timhortons.ca/signup">
-            <button id="weirdnames"><strong>Take me there</strong></button>
-        </a>
-    </div>
 
-    <div class="textrow1">
+    <div class="textrow1" style="float: left;">
         <h2>Whatever your mood, there’s a Quencher for <br>it.</h2>
         <p>Stay cool this summer with our Fruit Quenchers. Try one or all in<br> Sparkling, Frozen, and Lemonade. What's even cooler? You can<br> redeem 800 points for one.</p>
         <a href="https://www.timhortons.ca/store-locator">
@@ -183,27 +71,22 @@
         </a>
     </div>
 
-    <br><br>
-
-    <div class="firstrowimage textorimagealign">
-        <br>
-        <img src="/Images/Img6.png" width="748">
-    </div>
-
-    <div class="firstrowimage">
-        <br>
-        <img src="/Images/Img5.avif" width="755" height="374">
-    </div>
-
-    <div class="textrow1 textorimagealign">
-        <h2>Using your points is rewarding</h2>
-        <p>Track your balance and see what rewards are waiting!</p>
+    <div class="textrow1" style="float: right;">
+        <h2>Round Up for Tim Hortons Foundation <br>Camps!</h2>
+        <p>To round up your order total to the nearest 10¢, turn on the<br> toggle under Community. All funds from Round Up will<br> support Tim Hortons® Foundation Camps.</p>
         <a href="https://www.timhortons.ca/signup">
-            <button class="secondbuttons"><strong>View history</strong></button>
+            <button id="weirdnames"><strong>Take me there</strong></button>
         </a>
     </div>
+</div>
 
-    <div class="textrow1">
+    <div>
+        <img src="/Images/Img5.avif" width="755" height="374">
+        <img src="/Images/Img6.png"  height="374" class="imagealign">
+    </div>
+
+<div>
+    <div class="textrow1" style="float: left;">
         <h2>Over $13M donated to Tim Hortons®<br> Foundation Camps</h2>
         <p>Thank you! Camp Day 2025 was a success because of your<br> help. Thank you for helping change the lives of youth in need.</p>
         <a href="https://timscamps.com/">
@@ -211,14 +94,28 @@
         </a>
     </div>
 
-    <br><br><br>
+    <div class="textrow1" style="float: right;">
+        <h2>Using your points is rewarding</h2>
+        <p>Track your balance and see what rewards are waiting!</p>
+        <a href="https://www.timhortons.ca/signup">
+            <button class="secondbuttons"><strong>View history</strong></button>
+        </a>
+    </div>
+   
+</div>
+
+
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
 
     <div id="bottomtab">
 
         <div id="bottomtabtext">
-            <br><br><br><br>
             <h1 id="titletext">Order ahead,<br> save time, &<br> earn rewards!</h1>
-            <strong><p id="descriptivetext">Everything you love about Tim Hortons, now 'byte'-sized!</p></strong>
+            <strong><p id="descriptivetext">Everything you love about <br>Tim Hortons, now 'byte'-sized!</p></strong>
 
             <a href="https://apps.apple.com/us/app/tim-hortons/id1143883086">
                 <button class="appstores"><img src="/Images/download (2).png" width="20">Download on the<br>App Store</button>
@@ -230,7 +127,7 @@
             <p id="trademarks">Apple and the Apple logo are trademarks of Apple Inc., registered in the<br> U.S. and other countries. App Store is a service mark of Apple Inc. Google<br> Play is a trademark of Google Inc. Terms apply.</p>
         </div>
 
-        <img src="/Images/Img7.avif" height="1000">
+        <img src="/Images/Img7.avif" height="1000" id="phoneimage">
 
     </div>
 

@@ -1,0 +1,144 @@
+ #toptext{
+
+            color: rgb(54, 4, 4);
+            padding-left: 25px;
+            font-size: 25px;
+        }
+
+        #button{
+
+            background-color: red;
+            color: white;
+            width: 100px;
+            height: 30px;
+        }
+
+
+        .secondbuttons{
+
+            background-color: white;
+            color: red;
+            width: 100px;
+            height: 30px;
+            border: 1px solid red;
+
+        }
+
+        .textrow1{
+
+            background-color: white;
+            width: 750px;
+            padding-bottom: 25px;
+        }
+
+        #signin{
+
+            color: red;
+            background-color: white;
+            border: 1px solid black;
+            
+        }
+
+        #topbar{
+
+            background-color: red;
+            display: flex;
+            flex-direction: row;
+            align-items: center; 
+            justify-content: space-between; 
+            padding: 12px 32px;       
+            gap: 24px; 
+            height: 30px;
+            width: 1440px;
+            top: 0px;
+            position: fixed;
+            z-index: 1;
+        }
+
+        #bottomtabtext{
+
+            font-size: 30px;
+            float: right;
+            padding-right: 200px;
+            padding-top: 150px;
+        }
+
+        .imagealign{
+
+            float: right;
+        }
+        
+
+
+        #titletext{
+
+            color: white;
+            font-weight: bold;
+        }
+
+        #descriptivetext{
+
+            color: grey;
+
+        }
+
+        #bottomtab{
+
+            background-color: rgb(93, 12, 12);
+        }
+
+        .appstores{
+
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+        }
+
+        #weirdnames{
+
+            width: 120px;
+            height: 30px;
+            color: red;
+            border: 1px solid red;
+            background-color: white;
+        }
+
+        #weirdnames:hover{
+
+            background-color: rgb(249, 166, 166);
+        }
+
+        #trademarks{
+
+            color: white;
+            width: 600px;
+            text-align: justify;
+        }
+
+        #tims_for_good{
+
+            color: white;
+            font-size: large;
+            text-decoration: none;
+            
+        }
+
+        #first_section{
+
+            padding-bottom: 130px;
+            padding-top: 60px;
+        }
+
+        #circleimage{
+
+            padding-right: 100px;
+
+        }
+
+        #phoneimage{
+
+            margin-top: 150px;
+            margin-left: 25px;
+        }
+
+        
