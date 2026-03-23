@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="timhortons.css">
+    <script src="signup.js"></script>
+    <style>
+
+    #topbar{
+
+        background-color: red;
+
+    }
+
+    #text{
+
+        font-size: 23px;
+        float: right;
+        padding-top: 50px;
+    }
+
+    #submitbutton{
+
+        background-color: red;
+        color: white;
+        border: 0px;
+        width: 300px;
+        height: 40px;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .bars{
+
+        width: 300px;
+        height: 40px;
+    }
+    
+
+
+    </style>
+</head>
+
+<body style="background-color: antiquewhite;">
+
+<div>
+    <div id="topbar">
+        <div><a href="timhortons.html"><img src="Images/download.png" width="100" id="logo"></a></div>
+        <div><a href="timsforgood.html" id="tims_for_good"><p><strong>Tims for Good</strong></p></a></div>
+        <div><a href="signup_signin_page.html"><button id="signin"><strong>Sign In</strong></button></a></div>
+    </div>
+</div>
+
+    <img src="Images/Img8.avif" width="500" height="1000">
+
+<div id="text">
+
+    <div>
+
+        <img src="Images/download (1).png" width="75" height="75">
+
+    </div>
+
+    
+    <h1>Sign Up</h1>
+    <hr>
+
+    <br>
+
+
+    <form>
+
+        <input type="text" id="fname" name="fname" placeholder="First Name *" class="bars" required>
+
+        <br><br>
+
+        <input type="email" name="mail" placeholder="Email Address*" class="bars" id="email" required>
+
+        <br><br>
+
+        <input type="checkbox" id="SpecialOffers" name="SpecialOffers">
+        <label for="SpecialOffers">I want to receive special offers and other <br>information from Tim Hortons via email</label>
+
+        <br><br>
+
+        <input type="checkbox" id="PrivacyPolicy" name="PrivacyPolicy">
+        <label for="PrivacyPolicy" id="privacy">I agree to the following:<br><br> Privacy Policy (<a href="https://www.timhortons.ca/politique-de-confidentialite">FR</a> | <a href="https://www.timhortons.ca/privacy-policy">EN</a>) Tims Rewards Terms and Conditions (<a href="https://www.timhortons.ca/fidelitim-modalites-conditions">FR</a> | <a href="https://www.timhortons.ca/terms-conditions-rewards">EN</a>) Terms of Service (<a href="https://www.timhortons.ca/conditions-d-utilisation">FR</a> | <a href="https://www.timhortons.ca/terms-of-service">EN</a>)</label>
+
+        <br><br>
+
+        <input type="submit" value="Create an Account" id="submitbutton" onclick="buttonclick()">
+
+        
+    </form>
+</div>
+</body>
+</html>
